@@ -1,4 +1,4 @@
-// Example program
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -44,7 +44,7 @@ void Delete( int  i, SeqList *L )
     int  j; 
     if( i < 1 || i > L->last+1 )
 	{
-        printf("不存在第%d个元素", i );  
+        printf("虏禄麓忙脭脷碌脷%d赂枚脭陋脣脴", i );  
         return ;  
     } 
     for ( j = i; j <= L->last; j++ ) 
