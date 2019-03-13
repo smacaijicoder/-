@@ -44,7 +44,7 @@ void Delete( int  i, SeqList *L )
     int  j; 
     if( i < 1 || i > L->last+1 )
 	{
-        printf("²»´æÔÚµÚ%d¸öÔªËØ", i );  
+        printf("wrong position\n" );  
         return ;  
     } 
     for ( j = i; j <= L->last; j++ ) 
